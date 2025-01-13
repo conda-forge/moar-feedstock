@@ -1,5 +1,5 @@
 {% set name = "moar" %}
-{% set version = "1.31.1" %}
+{% set version = "1.31.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/walles/moar/archive/v{{ version }}.tar.gz
-  sha256: 2d699c8322788943b77165e3a246ac493dad6233d9855ac84194923dfdbb40f1
+  sha256: f88f244c18ee1a8ba1428bc195f9140d53a551124cc8b54c0c7942ba6433e2d7
 
 build:
   number: 0
