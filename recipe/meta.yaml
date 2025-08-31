@@ -1,20 +1,20 @@
-{% set name = "moar" %}
-{% set version = "1.33.0" %}
+{% set name = "moor" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/walles/moar/archive/v{{ version }}.tar.gz
-  sha256: 1aae66633a1b300e69666555ce8c6c9bdfefded634267ae7ef0a1f58fc2026f9
+  url: https://github.com/walles/moor/archive/v{{ version }}.tar.gz
+  sha256: 3c09cd7a22524c77d6b7c5564688f2c8e446319eef27cbdfdcbe810a14e2ba0a
 
 build:
   number: 0
 
 requirements:
   build:
-    - {{ compiler('go-nocgo') }}
+    - {{ compiler("go-nocgo") }}
     - go-licenses
 
 test:
@@ -22,13 +22,13 @@ test:
     - moar --help
 
 about:
-  home: https://github.com/walles/moar
+  home: https://github.com/walles/moor
   license: BSD-2-Clause
   license_file:
     - LICENSE
     - license-files/
   summary: Nice to use pager for humans
-  dev_url: https://github.com/walles/moar
+  dev_url: https://github.com/walles/moor
 
 extra:
   recipe-maintainers:
