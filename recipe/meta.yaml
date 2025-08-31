@@ -19,7 +19,7 @@ requirements:
 
 test:
   commands:
-    - moar --help
+    - moor --help
 
 about:
   home: https://github.com/walles/moor
