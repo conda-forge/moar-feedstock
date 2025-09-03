@@ -1,15 +1,15 @@
-About moar-feedstock
+About moor-feedstock
 ====================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/moar-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/walles/moar
+Home: https://github.com/walles/moor
 
 Package license: BSD-2-Clause
 
 Summary: Nice to use pager for humans
 
-Development: https://github.com/walles/moar
+Development: https://github.com/walles/moor
 
 Current build status
 ====================
@@ -83,53 +83,53 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-moar-green.svg)](https://anaconda.org/conda-forge/moar) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/moar.svg)](https://anaconda.org/conda-forge/moar) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/moar.svg)](https://anaconda.org/conda-forge/moar) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/moar.svg)](https://anaconda.org/conda-forge/moar) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-moor-green.svg)](https://anaconda.org/conda-forge/moor) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/moor.svg)](https://anaconda.org/conda-forge/moor) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/moor.svg)](https://anaconda.org/conda-forge/moor) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/moor.svg)](https://anaconda.org/conda-forge/moor) |
 
-Installing moar
+Installing moor
 ===============
 
-Installing `moar` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `moor` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `moar` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `moor` can be installed with `conda`:
 
 ```
-conda install moar
-```
-
-or with `mamba`:
-
-```
-mamba install moar
-```
-
-It is possible to list all of the versions of `moar` available on your platform with `conda`:
-
-```
-conda search moar --channel conda-forge
+conda install moor
 ```
 
 or with `mamba`:
 
 ```
-mamba search moar --channel conda-forge
+mamba install moor
+```
+
+It is possible to list all of the versions of `moor` available on your platform with `conda`:
+
+```
+conda search moor --channel conda-forge
+```
+
+or with `mamba`:
+
+```
+mamba search moor --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search moar --channel conda-forge
+mamba repoquery search moor --channel conda-forge
 
-# List packages depending on `moar`:
-mamba repoquery whoneeds moar --channel conda-forge
+# List packages depending on `moor`:
+mamba repoquery whoneeds moor --channel conda-forge
 
-# List dependencies of `moar`:
-mamba repoquery depends moar --channel conda-forge
+# List dependencies of `moor`:
+mamba repoquery depends moor --channel conda-forge
 ```
 
 
@@ -174,17 +174,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating moar-feedstock
+Updating moor-feedstock
 =======================
 
-If you would like to improve the moar recipe or build a new
+If you would like to improve the moor recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/moar-feedstock are
+Note that all branches in the conda-forge/moor-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
