@@ -1,5 +1,5 @@
 {% set name = "moor" %}
-{% set version = "2.7.1" %}
+{% set version = "2.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/walles/moor/archive/v{{ version }}.tar.gz
-  sha256: 2b9a26b7000a92778802138b92bfe6134723e2c72ba1829ca7da04efd314620a
+  sha256: f4fa51463b8e9f28088de017a45a06550071383fdd846ad924e7e80b2b5cb72c
 
 build:
   number: 0
