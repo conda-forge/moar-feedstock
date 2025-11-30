@@ -1,0 +1,37 @@
+schema_version: 1
+
+context:
+  version: 2.9.2
+
+package:
+  name: moor
+  version: ${{ version }}
+
+source:
+  url: https://github.com/walles/moor/archive/v${{ version }}.tar.gz
+  sha256: 185445dd81f0038778f23a90f573906b5697b3e99d572fb7727882c9c71236d8
+
+build:
+  number: 1
+
+requirements:
+  build:
+    - ${{ compiler("go-nocgo") }}
+    - go-licenses
+
+tests:
+  - script:
+      - moor --help
+
+about:
+  license: BSD-2-Clause
+  license_file:
+    - LICENSE
+    - license-files/
+  summary: Nice to use pager for humans
+  homepage: https://github.com/walles/moor
+  repository: https://github.com/walles/moor
+
+extra:
+  recipe-maintainers:
+    - danielnachun
