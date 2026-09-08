@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.17.0"
+  version: "2.19.0"
 
 package:
   name: moor
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/walles/moor/archive/v${{ version }}.tar.gz
-  sha256: ae901ba6bf680c9ce4c0a223b127f30c38cba83c8a8df4aaf79dbb256b03a30e
+  sha256: 47a5da205f0af3711a164f579dfebc7c765b54cd9360a353df477c7370b88699
 
 build:
   number: 0
